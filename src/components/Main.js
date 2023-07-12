@@ -1,9 +1,9 @@
 import React from "react";
 
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 function Main({ children }) {
-  return (<>{children}</>);
+  return <main className="container mx-auto p-4">{children}</main>;
 }
 
 Main.propTypes = {
